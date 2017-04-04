@@ -4,7 +4,7 @@ body {
 
 .topnav {
   overflow: hidden;
-  background-color: white;
+  background-color: #f5f6f8;
 }
 
 .topnav a {
@@ -18,3 +18,49 @@ body {
   font-family: "Open Sans Semibold";
 }
 
+.titleOne {
+  font-family: "Open Sans Light";
+  font-size: 30px;
+  color: #333333;
+}
+
+.titleOneParagraph {
+  font-family: "Open Sans Regular";
+  font-size: 18px;
+  color: #666666;
+}
+
+.titleTwo {
+  font-family: "Open Sans";
+  font-size: 16px;
+  color: #333333;
+  font-weight: bold;
+}
+
+.titleTwoParagraph {
+  font-family: "Open Sans Regular";
+  font-size: 16px;
+  color: #666666;
+}
+
+.footer {
+  background-color: #3a3d40;
+  font-family: "Open Sans Bold";
+  font-size: 18px;
+  color: #DDDDDD;
+  letter-spacing: 2px;
+  text-decoration: none;
+
+}
+
+.divider {
+  color: #d8d8d8;
+}
+
+a:link{
+  text-decoration: none!important;
+}
+
+.check {
+  list-style-image: url("assets/checkmark.svg");
+}
