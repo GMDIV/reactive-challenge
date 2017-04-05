@@ -3,58 +3,71 @@
 <head>
 	<title>Serpent VPN</title>
 	<link rel="stylesheet" type="text/css" href="styles.css">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
 </head>
 <body>
 
-<div class="col-12 topnav">
-
-  <img  class="logo" src="assets/logo.svg">
-  <div >
-	  <a href="#features">Features</a>
-	  <a href="#apps">Apps</a>
-	  <a href="#ourTeam">OurTeam</a>
-	  <a href="#customerSupport">Customer Support</a>
-  </div>
+<div  class="col-12 topnav">
+	<div class="col-1"></div>
+    <div class="col-10">
+  	    <img  class="logo" src="assets/logo.svg">
+	    <div >
+		    <a href="#features">Features</a>
+		    <a href="#apps">Apps</a>
+		    <a href="#ourTeam">OurTeam</a>
+		    <a href="#customerSupport">Customer Support</a>
+	    </div>
+    </div>
+    <div class="col-1"></div>
+  
 </div>
-<div class="col-2"></div>
-<div class="col-8">
-
-
-	<div>
-		<img class="largeIcon" src="assets/logo_cloud.svg">
-		<div>
-			<p class="titleOne">The World's Best VPN</p>
-			<p class="titleOneParagraph">
-			Our product is changing how individuals use a personal VPN. Traditional personal VPNs allow users to connect only to servers that the VPN provider owns and distributes an IP address from a pool that is also owned by a VPN provider. Serpent VPN is the next evolution fo personal VPN and instead allows users to utilize their own server, and connect to it from our state-of-the-art applications
-			</p>
-		</div>
-	</div>
-
-	<div class="bestVPNServices">
-			<div class="services">
-				<img class="icons" src="assets/icon_infrastructure.svg">
-				<p class="titleTwo">Lock Down Cloud Infrastructure</p>
-				<p class="titleTwoParagraph">Reduce the number of attack vectors on your public cloud infrastructure.</p>
-
-			</div>
-			<div class="services">
-				<img class="icons" src="assets/icon_vulnerabilities.svg">
-				<p class="titleTwo">Protect Against Vulnerabilities</p>
-				<p class="titleTwoParagraph">Protect your cloud servers against scanning for open SSH vulnerabilities and logins.</p>
-			</div>
-			<div class="services">
-				<img class="icons" src="assets/icon_third_party.svg">
-				<p class="titleTwo">Secure Third-Party Services</p>
-				<p class="titleTwoParagraph">Lock down access to third-party services such as Salesforce, to your server's static IP address.</p>
-			</div>
-		</div>
+<div class="col-12" >
+	<div class="col-1"></div>
+	<div class="col-9">
 
 		<div>
-			<img class="largeIcon" src="assets/secure.svg">
 			<div>
-				<p class="titleOne">Secure Access Point</p>
-				<p class="titleOneParagraph">Serpent VPN provides a secure access point that locks down your cloud infrastructure and protects your Internet connection. With Serpent VPN, you can:</p>
+				<div class="largeIconDiv">
+					<img class="largeIcon" src="assets/logo_cloud.svg">
+				</div>
+				<div class="information">
+					<p class="titleOne">The World's Best VPN</p>
+					<p class="titleOneParagraph">
+					Our product is changing how individuals use a personal VPN. Traditional personal VPNs allow users to connect only to servers that the VPN provider owns and distributes an IP address from a pool that is also owned by a VPN provider. Serpent VPN is the next evolution fo personal VPN and instead allows users to utilize their own server, and connect to it from our state-of-the-art applications.
+					</p>
+				</div>
+			</div>
+			<div class="bestVPNServices">
+				<div class="services">
+					<img class="icons" src="assets/icon_infrastructure.svg">
+					<p class="titleTwo">Lock Down Cloud Infrastructure</p>
+					<p class="titleTwoParagraph">Reduce the number of attack vectors on your public cloud infrastructure.</p>
+
+				</div>
+				<div class="services">
+					<img class="icons" src="assets/icon_vulnerabilities.svg">
+					<p class="titleTwo">Protect Against Vulnerabilities</p>
+					<p class="titleTwoParagraph">Protect your cloud servers against scanning for open SSH vulnerabilities and logins.</p>
+				</div>
+				<div class="services">
+					<img class="icons" src="assets/icon_third_party.svg">
+					<p class="titleTwo">Secure Third-Party Services</p>
+					<p class="titleTwoParagraph">Lock down access to third-party services such as Salesforce, to your server's static IP address.</p>
+				</div>
+			</div>
+		</div>
+
+		<div>
+			<div>
+				<div class="largeIconDiv">
+					<img class="largeIcon" src="assets/secure.svg">	
+				</div>
+				<div class="information">
+					<p class="titleOne">Secure Access Point</p>
+					<p class="titleOneParagraph">Serpent VPN provides a secure access point that locks down your cloud infrastructure and protects your Internet connection. With Serpent VPN, you can:</p>
+				</div>
+			</div>	
+			<div>
 				<ul class="titleTwoParagraph">
 					<li>Lock Down Cloud Infrastructure</li>
 					<li>Protect Against Vulnerabilities</li>
@@ -63,12 +76,18 @@
 				</ul>
 			</div>
 		</div>
-
+				
 		<div>
-			<img class="largeIcon" src="assets/advantages.svg">
 			<div>
-				<p class="titleOne">The Advantages are Endless</p>
-				<p class="titleOneParagraph">Serpent VPN makes using a VPN simple and streamlined while also offering several cool benefits:</p>
+				<div class="largeIconDiv">
+					<img class="largeIcon" src="assets/advantages.svg">
+				</div>
+				<div class="information">
+					<p class="titleOne">The Advantages are Endless</p>
+					<p class="titleOneParagraph">Serpent VPN makes using a VPN simple and streamlined while also offering several cool benefits:</p>
+				</div>
+			</div>
+			<div>
 				<ul class="titleTwoParagraph">
 					<li class="check">User your own dedicated IP address from a server you manage</li>
 					<li class="check">Set your own logging policy</li>
@@ -80,16 +99,17 @@
 		</div>
 
 
+	</div>
+	<div class="col-2"></div>
 </div>
-<div class="col-2"></div>
-<div class="col-12 footer">
+<div id="parentBodyDiv" class="col-12 footer">
 	<footer class="footer">	  
 	    <a href="#products">PRODUCTS</a>
 	    <a href="#resources">RESOURCES</a>
 	    <a href="#company">COMPANY</a>
 	    <a href="#support">SUPPORT</a>
 	    <a href="#social">SOCIAL:</a>
-	    <div>
+	    <div class="socialIcons">
 	    	<img src="assets/social_facebook.svg">
 	    	<img src="assets/social_twitter.svg">
 	    	<img src="assets/social_linkedin.svg">
